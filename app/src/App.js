@@ -8,8 +8,8 @@ request.get({uri:'https://api.genshin.dev/enemies'}, function (error, response, 
   console.error("error: ", error);
   console.log("statusCode: ", response && response.statusCode);
   console.log("body: ", body);
-  test = body
-})
+  test = body.slice();
+  })
 
 function App() {
   return (

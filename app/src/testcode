@@ -64,3 +64,10 @@
   myList1 : ['Iron man', 'Thor', 'Captain America', 'Hulk', 'Hawkeye', 'Black Widow'], 
         myList2 : ['Superman', 'Batman', 'Wonder Woman', 'Aquaman', 'Green Lantern', 'Flash', 'Cybrog'],
         <List parentCallbackTwo = {this.handleCallbackTwo}/>
+        
+<button onClick={() => getData()}>
+              yeet
+        </button>
+/* return(
+    Array.from(test).map((item) => { 
+      return <div>{item}</div>}))*/
